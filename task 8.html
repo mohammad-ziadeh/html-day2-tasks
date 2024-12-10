@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="mohammad" />
+    <meta name="description" content="survey" />
+
+    <title>simple survey</title>
+  </head>
+  <body>
+    <form>
+      <h1>Simple Survey</h1>
+      <div>
+        <fieldset>
+          <h2>Part 1: Basic Information</h2>
+          <label for="name">Name :</label>
+          <input type="text" id="text" />
+          <br />
+          <br />
+          <label for="email">Email :</label>
+          <input type="email" id="email" />
+        </fieldset>
+      </div>
+      <br />
+      <div>
+        <fieldset>
+          <h2>Part 2: Preferences</h2>
+          <label for="text">What is your favorite hobby? </label>
+          <input type="text" placeholder="E.g., Reading, Sport" />
+          <br />
+          <br />
+          <label>Do u like surveys?</label>
+          <br />
+
+          <input type="radio" name="done" />
+          <label for="Yes">Yes</label>
+          <br />
+          <input type="radio" name="done" />
+          <label for="No">No</label>
+          <br />
+          <br />
+          <label for="qustion"
+            >Which topics are you interested in? (check all that apply):</label
+          ><br />
+          <input type="checkbox" />
+          <label for="technology">Technology</label>
+          <br />
+          <input type="checkbox" />
+          <label for="Sports">Sports</label>
+          <br />
+          <input type="checkbox" />
+          <label for="Music">Music</label>
+          <br />
+          <input type="checkbox" />
+          <label for="Travel">Travel</label>
+          <br />
+        </fieldset>
+      </div>
+      <br />
+      <div>
+        <fieldset>
+          <h2>Part 3: Comments</h2>
+          <label for="comments">Any comments or suggestions:</label>
+          <br />
+          <textarea name="message" id="message" rows="3" cols="30"></textarea>
+        </fieldset>
+      </div>
+
+      <button type="submit">Submit</button>
+
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
