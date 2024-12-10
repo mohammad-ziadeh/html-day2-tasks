@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="mohammad" />
+    <meta name="description" content="form" />
+
+    <title>Contact form</title>
+  </head>
+  <body>
+    <article>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <br />
+      <br />
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" />
+      <br />
+      <br />
+      <label for="Country">Country:</label>
+      <select name="Country" id="Country">
+        <option value="select">Select your Country</option>
+      </select>
+      <br />
+      <p>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="male" />
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="gender">Female</label>
+      </p>
+      <label for="message">Message</label>
+      <br />
+      <textarea
+        name="text"
+        id="text"
+        placeholder="Type your message here"
+        cols="50"
+        rows="5"
+      ></textarea>
+      <br />
+      <input type="checkbox" name="subscribe" id="subscribe" />
+      <label for="subscribe">Subscribe</label>
+      <br />
+      <br />
+      <button type="submit">Submit</button>
+    </article>
+  </body>
+</html>

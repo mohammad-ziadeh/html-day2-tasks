@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="mohammad" />
+    <meta name="description" content="Registration" />
+
+    <title>Student Registration</title>
+  </head>
+  <body>
+    <h1>Student Registration Form</h1>
+    <p>
+      Welcome to the student registration page. Please fill out the form below
+      to register for your desired course.
+    </p>
+    <h2>Personal Information</h2>
+    <form>
+      <section>
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="FullName" name="FullName" />
+        <br />
+        <br />
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" />
+        <br />
+        <br />
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" />
+        <br />
+        <br />
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+      </section>
+      <br />
+      <br />
+      <section>
+        <h2>Course Selection</h2>
+        <p>Please select the courses you want to enroll in:</p>
+        <input type="checkbox" />
+        <label for="course 1">Course 1: Mathematics</label>
+        <br />
+        <input type="checkbox" />
+        <label for="course 2">Course 2: Computer Science</label>
+        <br />
+        <input type="checkbox" />
+        <label for="course 3">Course 3: Physics</label>
+      </section>
+      <br />
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+   
+
+    <section>
+      <h2>Available Course</h2>
+      <table border="1">
+        <tr>
+          <th>Course ID</th>
+          <th>Course Name</th>
+          <th>Instructor</th>
+          <th>Duration</th>
+        </tr>
+        <tr>
+          <td>101</td>
+          <td>Mathematics</td>
+          <td>Dr. Smith</td>
+          <td>6 months</td>
+        </tr>
+        <tr>
+          <td>102</td>
+          <td>Computer Science</td>
+          <td>Dr. Lee</td>
+          <td>6 months</td>
+        </tr>
+        <tr>
+          <td>103</td>
+          <td>Physics</td>
+          <td>Dr. Johnson</td>
+          <td>6 months</td>
+        </tr>
+      </table>
+    </section>
+  </body>
+</html>
