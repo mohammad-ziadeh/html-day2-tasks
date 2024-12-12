@@ -1,0 +1,46 @@
+div {
+  border: 2px solid black;
+  background-color: rgb(255, 243, 106);
+  margin: 10% 20%;
+}
+h1 {
+  background-color: brown;
+  color: white;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  padding: 8px;
+  margin: 4%;
+}
+.one {
+  width: 85%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  margin-left: 4%;
+  box-sizing: 90%;
+}
+
+.button {
+  border: 1px solid rgb(255, 225, 29);
+  margin: 10px;
+  background-color: rgb(250, 184, 2);
+  border-color: rgb(0, 0, 0);
+  text-align: center;
+  width: 96%;
+ 
+ 
+  height: 50px;
+}
+input[type="text"],
+select {
+  width: 85%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-sizing: 90%;
+  margin-left: 4%;
+}

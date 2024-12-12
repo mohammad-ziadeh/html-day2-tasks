@@ -1,0 +1,15 @@
+.item1 .item5 .item7 {
+  color: white;
+}
+.item1 {
+  background-color: blue;
+  padding: 6px;
+}
+.item5 {
+  background-color: pink;
+  padding: 6px;
+}
+.item7 {
+  background-color: orange;
+  padding: 6px;
+}
